@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`When I create the Toolbar component should match snapshot 1`] = `
+<header role="banner" title="Banner" aria-label="Header" class="navbar">
+  <div class="nav-container">
+    <router-link-stub to="/" tag="a" ariacurrentvalue="page" event="click" aria-label="Logo Image Link" title="Favorite Views" class="brand link"><img src="@/assets/img/logo.png" alt="Logo" class="logo"></router-link-stub>
+    <div class="spacer"></div>
+    <nav role="navigation" aria-label="Navigation bar" title="Navigation Bar" class="nav-menu">
+      <router-link-stub to="/" tag="a" ariacurrentvalue="page" event="click" aria-label="Home Link" title="Home" class="link">Home</router-link-stub>
+      <router-link-stub to="/favorite-views" tag="a" ariacurrentvalue="page" event="click" aria-label="Favorite Views Button" title="Favorite Views" class="button link">Favorite Views</router-link-stub>
+    </nav>
+  </div>
+</header>
+`;

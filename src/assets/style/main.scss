@@ -1,0 +1,120 @@
+.layout {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.wrap-row {
+  flex-flow: row wrap;
+}
+
+.nowrap-row {
+  flex-flow: row nowrap;
+}
+
+.nowrap-column {
+  flex-flow: column nowrap;
+}
+
+.wrap-column {
+  flex-flow: column wrap;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.relative {
+  position: relative;
+}
+
+.fade-custom-enter-active,
+.fade-custom-leave-active {
+  transition-duration: 0.25s;
+  transition-property: opacity;
+  transition-timing-function: ease;
+}
+
+.fade-custom-enter,
+.fade-custom-leave-to {
+  opacity: 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+$spacer: 8px;
+$types: "p", "m";
+$class: padding, margin;
+$directions: (
+  "t": "top",
+  "r": "right",
+  "l": "left",
+  "b": "bottom"
+);
+
+@each $type in $types {
+  @each $directionAbrev, $direction in $directions {
+    @for $num from 0 through 5 {
+      $i: index($types, $type);
+
+      .#{nth($types, $i)}#{$directionAbrev}-#{$num} {
+        #{nth($class, $i) + '-' + $direction}: $spacer * (0.5 * $num) !important;
+      }
+    }
+  }
+}

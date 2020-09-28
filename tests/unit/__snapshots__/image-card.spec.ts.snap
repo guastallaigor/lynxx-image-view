@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`When I create the ImageCard component should match snapshot 1`] = `
+<div class="image-card min-h-300">
+  <v-lazy-image-stub src="https://ik.imagekit.io/6xhf1gnexgdgk/lion_BllLvaqVn.jpg" srcplaceholder="//:0" intersectionoptions="[object Object]" alt="Lion" title="Lion" class="pointer"></v-lazy-image-stub>
+  <figcaption>Lion</figcaption>
+</div>
+`;

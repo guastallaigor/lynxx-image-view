@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`When I create the FooterWrapper component should match snapshot 1`] = `
+<footer id="footer" class="footer">
+  <div class="footer-container w-container">
+    <div class="footer-flex-container">
+      <div class="div-1"><a href="#/" aria-current="page" class="footer-logo-link w-inline-block router-link-exact-active router-link-active" title="Logo" aria-label="Logo Image Link"><img src="@/assets/img/logo.png" alt="Logo" class="footer-image"></a>
+        <p class="p-secondary footer-brand-statement">
+          Keep an eye on your site.
+        </p>
+      </div>
+      <div class="div-2">
+        <h2 class="footer-heading">Website</h2>
+        <ul role="list" class="w-list-unstyled">
+          <li><a href="#/" aria-current="page" class="footer-link router-link-exact-active router-link-active" title="Home" aria-label="Home Link">Home</a></li>
+          <li><a href="#/" aria-current="page" class="footer-link router-link-exact-active router-link-active" title="Pricing" aria-label="Pricing Link">Pricing</a></li>
+        </ul>
+      </div>
+      <div class="div-3">
+        <h2 class="footer-heading">Resources</h2>
+        <ul role="list" class="w-list-unstyled">
+          <li><a href="#/" aria-current="page" class="footer-link router-link-exact-active router-link-active" title="Knowledge Base" aria-label="Knowledge Updates Link">Knowledge Base</a></li>
+          <li><a href="#/" aria-current="page" class="footer-link router-link-exact-active router-link-active" title="Product Updates" aria-label="Product Updates Link">Product Updates</a></li>
+        </ul>
+      </div>
+      <div class="div-4">
+        <h2 class="footer-heading">Access</h2>
+        <ul role="list" class="w-list-unstyled">
+          <li><a href="#/" aria-current="page" class="footer-link router-link-exact-active router-link-active" title="Login" aria-label="Login Link">Login</a></li>
+          <li><a href="#/" aria-current="page" class="footer-link router-link-exact-active router-link-active" title="Free trial" aria-label="Free trial Link">Start your free trial</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="div-5">
+      <div class="footer-copyright">© 2020 Lynxx. All rights reserved.</div>
+      <div><a href="#/" aria-current="page" class="footer-copyright-link router-link-exact-active router-link-active" title="Terms" aria-label="Terms Link">Terms</a><a href="#/" aria-current="page" class="footer-copyright-link router-link-exact-active router-link-active" title="Privacy" aria-label="Privacy Link">Privacy</a></div>
+    </div>
+  </div>
+</footer>
+`;

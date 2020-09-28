@@ -7,7 +7,7 @@ import { Image } from "@/interfaces/interfaces";
 export default class ImageStore extends VuexModule {
   private images!: Image[];
 
-  get favoriteImages(): Image[] {
+  get favoriteViews(): Image[] {
     return this.images.filter((image: Image) => image.favourite);
   }
 
